@@ -57,7 +57,7 @@ body {
 
 header {
     width: 70vw;
-    height: 70vh;
+    height: 100vh;
 
 }
 
@@ -90,12 +90,13 @@ h1.brand {
 
     position: relative;
     max-width: 100%;
+
     margin: 0 auto;
 }
 
 .slider {
     display: flex;
-    aspect-ratio: 16/9;
+    aspect-ratio: 16/10;
     overflow-x: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
