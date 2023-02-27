@@ -41,87 +41,81 @@
 
             </nav>
             <div class="divider"></div>
-            <section class="container">
-                <div class="slider-wrapper">
+            
+                
                     <div class="slider" id="slider">
-
-                        <img id="slider-1" src="./img/slider1.jpg" alt="">
-                        <img id="slider-2" src="./img/slider2.jpg" alt="">
-                        <img id="slider-3" src="./img/slider3.jpg" alt="">
-                        <img id="slider-4" src="./img/slider4.jpg" alt="">
-
-                    </div>
-                    <div class="slider-nav">
-                        <a href="#slider-1"></a>
-                        <a href="#slider-2"></a>
-                        <a href="#slider-3"></a>
-                        <a href="#slider-4"></a>
-                    </div>
-                </div>
-            </section>
-            <section class="container">
-
-            </section>
-            <section class="showrooms">
-                <div class="showroom-container" id="showroom">
-                    <div class="showroom-description">
-                        <h1>Showrooms</h1>
-                        <div class="showroom_molinar">
-                            <h2>Es Molinar</h2>
-                            <span>Calle Llucmajor 114.07006 Palma, Mallorca. (+34) 971250756. info@molinarestudi.com
-                            </span>
-                            <ul class="galeria">
-                                <li><a href="#img1"><img src="/img/showroom_1.jpg"></a></li>
-                                <li><a href="#img2"><img src="/img/showroom_2.jpg"></a></li>
-                                <li><a href="#img3"><img src="/img/showroom_3.jpg"></a></li>
-                                <li><a href="#img4"><img src="/img/showroom_4.jpg"></a></li>
-                            </ul>
-
-                            <div class="modal" id="img1">
-                                <h3>Imagen 1</h3>
-                                <div class="imagen">
-                                    <a href="#img4" class="next">&#60;</a>
-                                    <a href="#img2"><img src="/img/showroom_1.jpg"></a>
-                                    <a href="#img2" class="prev">></a>
-                                </div>
-                                <a class="cerrar" href="#showroom">X</a>
-                            </div>
-
-                            <div class="modal" id="img2">
-                                <h3>Imagen 2</h3>
-                                <div class="imagen">
-                                    <a href="#img1" class="next">&#60;</a>
-                                    <a href="#img3"><img src="/img/showroom_2.jpg"></a>
-                                    <a href="#img3" class="prev">></a>
-                                </div>
-                                <a class="cerrar" href="#showroom">X</a>
-                            </div>
-
-                            <div class="modal" id="img3">
-                                <h3>Imagen 3</h3>
-                                <div class="imagen">
-                                    <a href="#img2" class="next">&#60;</a>
-                                    <a href="#img4"><img src="/img/showroom_3.jpg"></a>
-                                    <a href="#img4" class="prev">></a>
-                                </div>
-                                <a class="cerrar" href="#showroom">X</a>
-                            </div>
-
-                            <div class="modal" id="img4">
-                                <h3>Imagen 4</h3>
-                                <div class="imagen">
-                                    <a href="#img3" class="next">&#60;</a>
-                                    <a href="#img1"><img src="/img/showroom_4.jpg"></a>
-                                    <a href="#img1" class="prev">></a>
-                                </div>
-                                <a class="cerrar" href="#showroom">X</a>
-                            </div>
+                        <ul class="slides">
+                            <li><img id="slider-1" src="./img/slider1.jpg" alt=""></li>
+                            <li><img id="slider-2" src="./img/slider2.jpg" alt=""></li>
+                            <li><img id="slider-3" src="./img/slider3.jpg" alt=""></li>
+                            <li><img id="slider-4" src="./img/slider4.jpg" alt=""></li>
+                        </ul>
+                        <div class="buttons">
+                            <div class="next">&#10095;</div>
+                            <div class="prev">&#10094;</div>
                         </div>
-
-                        <div class="general_riera">
-                            <h2>General Riera</h2>
-                            <span>General Riera 32. 07003 Palma, Mallorca Tlf:(+34) 871 805 677</span>
-
+                    </div> 
+            </div>
+            <section class="showrooms">
+            <div class="showroom-container" id="showroom">
+                <div class="showroom-description">
+                    <h1>Showrooms</h1>
+                    <div class="showroom_molinar">
+                        <h2>Es Molinar</h2>
+                        <span>Calle Llucmajor 114.07006 Palma, Mallorca. (+34) 971250756.
+                        </span>
+                        <ul class="galeria">
+                            <li><a href="#img1"><img src="/img/showroom_1.jpg"></a></li>
+                            <li><a href="#img2"><img src="/img/showroom_2.jpg"></a></li>
+                            <li><a href="#img3"><img src="/img/showroom_3.jpg"></a></li>
+                            <li><a href="#img4"><img src="/img/showroom_4.jpg"></a></li>
+                        </ul>
+                    
+                        <div class="modal" id="img1">
+                            <h3>Imagen 1</h3>
+                            <div class="imagen">
+                                <a href="#img4" class="next">&#60;</a>
+                                <a href="#img2"><img src="/img/showroom_1.jpg"></a>
+                                <a href="#img2" class="prev" >></a>
+                            </div>
+                            <a class="cerrar" href="#showroom">X</a>
+                        </div>
+                        
+                        <div class="modal" id="img2">
+                            <h3>Imagen 2</h3>
+                            <div class="imagen">
+                                <a href="#img1" class="next">&#60;</a>
+                                <a href="#img3"><img src="/img/showroom_2.jpg"></a>
+                                <a href="#img3" class="prev" >></a>
+                            </div>
+                            <a class="cerrar" href="#showroom">X</a>
+                        </div>
+                        
+                        <div class="modal" id="img3">
+                            <h3>Imagen 3</h3>
+                            <div class="imagen">
+                                <a href="#img2" class="next">&#60;</a>
+                                <a href="#img4"><img src="/img/showroom_3.jpg"></a>
+                                <a href="#img4" class="prev">></a>
+                            </div>
+                            <a class="cerrar" href="#showroom">X</a>
+                        </div>
+                        
+                        <div class="modal" id="img4">
+                            <h3>Imagen 4</h3>
+                            <div class="imagen">
+                                <a href="#img3" class="next">&#60;</a>
+                                <a href="#img1"><img src="/img/showroom_4.jpg"></a>
+                                <a href="#img1" class="prev">></a>
+                            </div>
+                            <a class="cerrar" href="#showroom">X</a>
+                        </div>
+                    </div>
+    
+                    <div class="general_riera">
+                        <h2>General Riera</h2>
+                        <span>General Riera 32. 07003 Palma, Mallorca Tlf:(+34) 871 805 677</span>
+                       
                             </span>
                             <ul class="galeria">
                                 <li><a href="#img5"><img src="/img/showroom_5.jpg"></a></li>
@@ -178,10 +172,11 @@
         </header>
 
 
-    </div>
+    
 
 
 
 </body>
+<script  src="./slider.js"></script>
 
 </html>
